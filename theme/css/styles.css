@@ -391,6 +391,11 @@ body {
   min-height: 100%;
   height: 100%;
   font-size: 14px;
+  font-family: "Times New Roman", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
 }
 
 .clearfix {
@@ -411,4 +416,124 @@ body {
 
 .pull-right {
   float: right;
+}
+
+.site-container {
+  width: 860px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  text-align: center;
+}
+.header-wrapper .header {
+  border-bottom: 1px solid #acacac;
+  padding: 20px 0;
+}
+.header-wrapper .logo {
+  margin-bottom: 12px;
+}
+.header-wrapper .bread-cramp ul {
+  margin: 0;
+  padding: 0;
+}
+.header-wrapper .bread-cramp ul li {
+  list-style: none;
+  display: inline-block;
+}
+.header-wrapper .bread-cramp ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.content-wrapper {
+  padding: 35px 0;
+}
+.content-wrapper h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 80px 0;
+}
+.content-wrapper .contacts {
+  display: table;
+  width: 100%;
+  margin-bottom: 70px;
+}
+.content-wrapper .contacts .left-part {
+  display: table-cell;
+  vertical-align: middle;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 90px;
+}
+.content-wrapper .contacts .right-part {
+  display: table-cell;
+  vertical-align: middle;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 50px;
+  font-size: 28px;
+}
+.content-wrapper .tels {
+  text-align: center;
+}
+.content-wrapper .tels h4 {
+  font-size: 36px;
+}
+.content-wrapper .tels ul {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+}
+.content-wrapper .tels ul li {
+  list-style: none;
+}
+.content-wrapper .tels ul li span {
+  display: inline-block;
+  width: 320px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.page-poster {
+  font-size: 28px;
+}
+.page-poster .text {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.page-poster .img {
+  margin-bottom: 100px;
+}
+.page-poster .block {
+  display: table;
+  margin-bottom: 90px;
+}
+.page-poster .block .left-part {
+  display: table-cell;
+  vertical-align: middle;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 15px;
+}
+.page-poster .block .right-part {
+  display: table-cell;
+  vertical-align: middle;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+
+.footer-wrapper .footer {
+  padding: 20px 0;
+  border-top: 1px solid #acacac;
+}
+.footer-wrapper .logo {
+  text-align: center;
 }
